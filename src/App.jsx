@@ -26,6 +26,25 @@ export default function App() {
           <p className="more">{`{Other Information will be added soon}`}</p>
         </div>
 
+        <section className="section">
+          <h2>Experience</h2>
+          <p>
+            <LinkItem href="https://www.traveloka.com/">Traveloka</LinkItem> is a
+            Southeast Asian technology company offering travel and lifestyle
+            services across flights, hotels, transport, attractions, and more.
+          </p>
+        </section>
+
+        <section className="section">
+          <h2>Education</h2>
+          <p>
+            <LinkItem href="https://stei.itb.ac.id/en/program-sarjana/sarjana-informatika/">Informatics (Computer Science), Institut Teknologi Bandung</LinkItem>
+            — a program focusing on theoretical foundations and practical
+            applications of computing, including algorithms, systems, AI,
+            networks, and software engineering.
+          </p>
+        </section>
+
         <div className="divider" />
 
         <section className="contacts">
